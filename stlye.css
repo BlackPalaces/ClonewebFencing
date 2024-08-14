@@ -1,5 +1,5 @@
 .words-wrapper b {
-    position: none;
+    position: relative;
     opacity: 0;
     transition: transform 0.5s ease, opacity 0.5s ease;
 }
@@ -13,9 +13,6 @@
     transform: translateY(100%);
 }
 
-.rotated-svg {
-    transform: rotate(180deg);
-    transform-origin: center; /* เลือกจุดหมุนที่ต้องการ */
-    display: block; /* ทำให้ SVG แสดงเป็นบล็อค */
-    width: 100%; /* ปรับขนาดตามต้องการ */
-}
+tr:nth-child(even) {
+    background-color: #f4f1de;
+  }
